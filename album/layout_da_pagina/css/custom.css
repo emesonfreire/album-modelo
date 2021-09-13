@@ -116,7 +116,7 @@ section{
 .top{
     color: rgba(255, 255, 255, 0.87);
     display: flex;
-    background: url('../images/topo_v6.jpg') no-repeat center;
+    background: url('https://img.elo7.com.br/product/600x380/204001C/papel-de-parede-coracoes-de-rabiscos-papel-de-parede-paris.jpg') no-repeat center;
     height: 100vh;
     min-height: 800px;
     background-attachment: fixed;
@@ -167,7 +167,7 @@ section{
 
 .services{
     color: #fff;
-    background-color: #0c0f16;
+    background-color: #b83325;
     font-family: 'Poppins', sans-serif;
 }
 .services .title{
