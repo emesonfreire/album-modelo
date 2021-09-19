@@ -123,15 +123,18 @@ section{
     background-size: cover;
     font-family: 'Ubuntu', sans-serif;
     text-align:right;
+    align-items: center;
+    
+
 }
 .top .max-width{
     width: 100%;
     display: flex;
 }
-.top .top-content .perfil{
-    width: 15%;
+.top .top-content {
+    width: 100%;
     margin-top: 100px;
-    margin-left: 18px;
+    margin-right:9%;
     border-radius: 5%;
     
 }
