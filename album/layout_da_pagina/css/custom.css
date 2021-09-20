@@ -36,14 +36,14 @@ body{
     z-index: 999;
     padding: 20px 0;
     font-family: 'Ubuntu', sans-serif;
-    background-color: #280753;
+    background-color: #9c0c02;
     /*background-color: none;*/
     border-bottom: solid #1b202a 1px;
 }
 /* deixando o site responsivo eu posso aproveitar da class max-width e unir em outras classe como o exemplo abaixo*/
 .navbar .max-width{
     display: flex;
-    align-items: center; /* aling-items é em relação a margem superior e inferior*/
+    align-items:center ; /* aling-items é em relação a margem superior e inferior*/
     justify-content: space-between;  /*espaço entre os elementos de forma igual (é o mesmo que falar que quero
                                      que ele coloque espaço entre os itens utilizando o espaço disponível)*/
 }
@@ -53,15 +53,16 @@ body{
     font-weight: 500;
 }
 .navbar .menu li{
-    list-style: none;  /* retira o circulo da lista*/
-    display: inline-block; /* coloca tudo em uma única linha*/
+    list-style:none;  /* retira o circulo da lista*/
+    display: inline-block;/* coloca tudo em uma única linha*/
 }
 .navbar .menu li a{
     display: block;
     color: #fff;
     font-size: 18px;
     font-weight: 400;
-    margin-left: 50px; /*margem em relação a lateral esquerda*/
+    margin-left: 50px;
+    text-decoration: none;  /*margem em relação a lateral esquerda*/
 }
 .menu-btn{
     color: #fff;
@@ -79,7 +80,7 @@ body{
         content: "\f00d"; /*ícone do X */
     }
     .navbar .menu{
-        background-color: #121721;
+        background-color: #af030f;
         position: fixed;
         height: 100vh; /*significa que eu quero que ele ocupe 100% da tela em forma de lista quando estiver em dispositivo móvel*/
         width: 100%;
