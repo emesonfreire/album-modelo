@@ -135,8 +135,8 @@ section{
 }
 .top .top-content {
     width: 100%;
-    margin-top: 100px;
     border-radius: 5%;
+    margin: 3%;
     
 }
 .top .top-content .text-1{

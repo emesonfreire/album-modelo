@@ -1,0 +1,26 @@
+// guarda recado
+var input = document.querySelectorAll('input[name=nome]');
+var tam = document.querySelectorAll('input[name=nome]').length;
+for (var i = 0; i < tam; i++) {
+  document.body.innerHTML += input[i].getAttribute('value');
+}
+// Função que mostra o valor do input num alert
+function mostrarValor() {
+    alert(document.getElementById("nome").value);
+    
+}
+
+// Evento que é executado toda vez que uma tecla for pressionada no input
+document.getElementById("nome").onkeypress = function(e) {
+    // 13 é a tecla <ENTER>. Se ela for pressionada, mostrar o valor
+    if (e.keyCode == 13) {
+        mostrarValor();
+        e.preventDefault();
+    }
+}
+
+// Evento que é executado ao clicar no botão de enviar
+document.getElementById("meu-submit").onclick = function(e) {
+    mostrarValor();
+    e.preventDefault();
+}
